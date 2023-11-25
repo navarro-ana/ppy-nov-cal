@@ -1,16 +1,65 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body{
-    background: #f6f5f7; 
     font-family: 'Montserrat', sans-serif;
-    color: #f6f5f7;
+    color: #3E363F;
+    background-image: linear-gradient(#faf9f9bf, #faf9f9bf),url(https://media.istockphoto.com/id/1140748314/photo/intravenous-drip-on-the-background-of-patient-under-the-heart-monitoring.jpg?s=612x612&w=0&k=20&c=J7DGd6VvV1HiyTZRic8EJ1HpOq3g5ABN_KVFAesGkDQ=);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed; 
+
 }
 
-div {
-    background-color: rgb(19, 108, 131);
-    width: 70vh;
-    height: 80vh;
+#contenedor{
+    height: 350px;
+    width: 550px;
+    text-align: center;
     position: absolute;
     inset: 0;
+    margin: 50px auto;
+    box-shadow: 0 5px 10px gray;
+    background-color: white;
+}
+input {
+	width: 48%;
+    padding: 15px 18px;
+    border-color: rgb(9, 81, 99);
+    background-color: white;
+    font-size: medium;
+    text-align: center;
+}
+button {
+    font-size: 16px;
+      font-weight: bold;
+      padding: 12px 45px;
+      border-radius: 20px;
+      background-color: rgb(25, 143, 151);
+      border: 1px rgb(25, 143, 151);
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: transform 20ms ease-in;
+}
+#detalles{
+    
+    width: 550px;
+    height: 250px;
+    float: left;
+    color: #f6f5f7;
     margin: auto;
+    box-shadow: 0 5px 10px gray;
+    border: 20px;
+    background-color: rgb(25, 143, 151);
+}
+.contenido{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0px 40px;
+    margin: auto;
+}
+.contenido ul{
+    text-align: justify;
+    line-height: 1.5;
 }
