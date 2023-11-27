@@ -8,9 +8,7 @@ body{
     background-size: cover; 
     background-position: center;
     background-attachment: fixed; 
-
 }
-
 #contenedor{
     height: 350px;
     width: 550px;
@@ -42,7 +40,6 @@ button {
       transition: transform 20ms ease-in;
 }
 #detalles{
-    
     width: 550px;
     height: 250px;
     float: left;
