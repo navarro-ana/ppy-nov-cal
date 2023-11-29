@@ -12,9 +12,9 @@ CALCULAR.addEventListener("click", () => {
          ERROR.style.display = "none";  
          let flujoH = Holliday(PESO);
          let mantenimiento = flujoH * 1.5;
-         MANTENIMIENTO.innerHTML = "m + m/2: " + mantenimiento.toFixed (2) + " cc/h";
+         MANTENIMIENTO.innerHTML = "m + m/2: " + mantenimiento.toFixed(2) + " cc/h";
          MANTENIMIENTO.style.display = "block";
-         FLUJO.innerHTML = flujoH + " cc/h";
+         FLUJO.innerHTML = flujoH.toFixed(2)+ " cc/h" ;
          FLUJO.style.display = "block";
          console.log (flujoH);
         } else {
@@ -24,7 +24,7 @@ CALCULAR.addEventListener("click", () => {
             console.log (flujoSC)
             let resultado1 = flujoSC * 1500;
             let resultado2 = flujoSC * 2000;
-            FLUJO.innerHTML = resultado1.toFixed (2)+ " cc/h";
+            FLUJO.innerHTML = resultado1.toFixed(2)+ " cc/h";
             FLUJO.style.display = "block";
 
             MANTENIMIENTO.innerHTML = resultado2.toFixed(2) + "cc/h";
@@ -38,7 +38,7 @@ CALCULAR.addEventListener("click", () => {
 
 function SuperficieCorporal(peso) {
     
-    return ( (peso * 4) + 7) / (peso + 90)
+         return ( (peso * 4) + 7) / (peso + 90)
     
     
 }
