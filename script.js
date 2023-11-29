@@ -37,10 +37,7 @@ CALCULAR.addEventListener("click", () => {
 }
 
 function SuperficieCorporal(peso) {
-    
          return ( (peso * 4) + 7) / (peso + 90)
-    
-    
 }
 
 function Holliday (peso) {
