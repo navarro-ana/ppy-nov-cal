@@ -26,7 +26,6 @@ body{
 input {
 	width: 50%;
     padding: 15px 18px;
-    border-color: rgb(9, 81, 99);
     background-color: white;
     font-size: medium;
     text-align: center;
@@ -40,10 +39,10 @@ button {
     border: 1px rgb(25, 143, 151);
     color: white;
     text-transform: uppercase;
-    letter-spacing: px;
     transition: transform 20ms ease-in;
     width: 50%;
     margin: 2%;
+    cursor: pointer;
 }
 #detalles{
     width: 550px;
@@ -66,14 +65,11 @@ button {
     line-height: 1.5;
 }
 #error{
-    color: rgb(25, 143, 151);
+    color: red;
     font-weight: bold;
     display: none;
 }
 .resultado{
     color: rgb(25, 143, 151);
-    font-weight: bold;
     font-size: 25px;
-    margin-bottom: 5px;
-    display: none;
 }
